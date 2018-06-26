@@ -18,10 +18,10 @@ Actually, codes are run on AWS conda-pytorch-p27.
 # how to run the code
 The three jupyter notebooks shows how to run the code and some examples. 
 
-- reconstruction.ipynb shows content and style reconstruction under different conditions, including different 
+1. reconstruction.ipynb shows content and style reconstruction under different conditions, including different 
 input images and different style and content layers.
 
-- transfer1style.ipynb shows transferring one style to content image under different conditions, including different 
+2. transfer1style.ipynb shows transferring one style to content image under different conditions, including different 
 input images and different style and content layers.
 
-- transfer2styles.ipynb shows several examples of transferring two styles to content image.
+3. transfer2styles.ipynb shows several examples of transferring two styles to content image.
