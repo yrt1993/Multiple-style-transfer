@@ -1,11 +1,13 @@
 # Multiple-style-transfer
 
-In this project, I build an artificial system based on Convolutional Neural Network(CNN) to create artistic images of high quality. Such new images, called **pastiche**, are created through transferring the styles of several artworks, known as the  **style image** to a picture, known as the **content image**.
+In this project, an artificial system based on Convolutional Neural Network(CNN) is built to transfer the styles of several artworks to a picture. Desired image is called **pastiche**.
 
+This project is based on [Gatys et al's paper](https://arxiv.org/abs/1508.06576), which transfer only one style and act as an generalization.
+
+# Implementation
 In the system, an input image (either random noise or same as content image) is passed through the pre-trained VGG19 network along with the content image and style images. The feature maps of intermediate layers are used to compute the **content loss**, which measures the difference of content of iput image and content image, and the **style loss**, which measures the difference of styles of input image and style image. Then back propagate to the input image to minimize a total loss consisting of weighted content loss and style loss. Therefore, with each iteration, the input image becomes 
 more like the desired pastiche, combing content from content image with styles from several artworks. 
 
-This project is based on [Gaty et al's paper](https://arxiv.org/abs/1508.06576) and act as a generalization.
 
 
 # package used 
