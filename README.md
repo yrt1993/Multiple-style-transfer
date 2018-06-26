@@ -15,7 +15,7 @@ more like the desired pastiche, combing content from content image with styles f
 - pytorch
 - cuda
 
-Actually, codes are run on AWS conda-pytorch-p27.
+Actually, codes are run on AWS p2.xlarge using environment conda-pytorch-p27.
 
 # how to run the code
 The three jupyter notebooks shows how to run the code and some examples. 
