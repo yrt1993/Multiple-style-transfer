@@ -25,3 +25,8 @@ input images and different style and content layers.
 input images and different style and content layers.
 
 3. transfer2styles.ipynb shows several examples of transferring two styles to content image.
+
+# code reference
+The codes refers to [Neural Artistic Style Transfer: A Comprehensive Look](https://medium.com/artists-and-machine-intelligence/neural-artistic-style-transfer-a-comprehensive-look-f54d8649c199). 
+
+I fix some errors and make many modifications. Besides, it is generalized to transfer several styles.
